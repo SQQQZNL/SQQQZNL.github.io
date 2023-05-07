@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+      #p1{
+          position: absolute;
+  				top: 350px;
+  				right: 300px;
+          font-size:30px;}
+      </style>
+  </head>
+  <body>
+
+    <img src="背景.png" class="img-fluid" alt="...">
+    <img src="cat2.png" alt="..." style="position: absolute;
+    right:500px; bottom:335px;">
+
+    <p id="p1">点击按钮和小猫进行对话</p>
+    <div class="modal fade" id="mao1" aria-hidden="true" aria-labelledby="mao1Label" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="mao1Label">喵</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="cat2.png" alt="..." >
+          你好，冒险者
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#mao2" data-bs-toggle="modal">你好猫猫</button>
+
+          <button class="btn btn-primary" data-bs-target="#mao2" data-bs-toggle="modal">叫我冒险者大人！</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="modal fade" id="mao2" aria-hidden="true" aria-labelledby="mao1Labe2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="mao1Label2">喵</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="cat2.png" alt="..." >
+          你想要和我一起去冒险吗？
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#mao3" data-bs-toggle="modal">好呀</button>
+          <button class="btn btn-primary" data-bs-target="#mao1" data-bs-toggle="modal">返回</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="modal fade" id="mao3" aria-hidden="true" aria-labelledby="maoLabel3" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe3">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="cat2.png" alt="..." >
+            冒险者大人是什么职业呢？
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao4" data-bs-toggle="modal">战士！</button>
+            <button class="btn btn-primary" data-bs-target="#mao5" data-bs-toggle="modal">魔法师！</button>
+            <button class="btn btn-primary" data-bs-target="#mao2" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mao4" aria-hidden="true" aria-labelledby="maoLabel4" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe4">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="cat2.png" alt="..." >
+            那就一起去冒险吧，战士冒险者大人！但在出发之前，还是要对冒险者大人进行一个考验这样的喵~
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao6" data-bs-toggle="modal">来吧！</button>
+            <button class="btn btn-primary" data-bs-target="#mao3" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>、
+    <div class="modal fade" id="mao5" aria-hidden="true" aria-labelledby="maoLabel5" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe5">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="cat2.png" alt="..." >
+            那就一起去冒险吧，魔法师冒险者大人！但在出发之前，还是要对冒险者大人进行一个考验这样的喵~
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao6" data-bs-toggle="modal">来吧！</button>
+            <button class="btn btn-primary" data-bs-target="#mao3" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mao6" aria-hidden="true" aria-labelledby="maoLabel6" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe6">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="cat2.png" alt="..." >
+            勇者的宝剑是在哪里呢？
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao7" data-bs-toggle="modal">地下城的深处</button>
+            <button class="btn btn-primary" data-bs-target="#mao8" data-bs-toggle="modal">村子中间的石头中</button>
+            <button class="btn btn-primary" data-bs-target="#mao3" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mao7" aria-hidden="true" aria-labelledby="maoLabel7" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe7">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="cat2.png" alt="..." >
+            勇者的宝剑不会在那么危险的地方啦~～(￣▽￣～)~
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao8" data-bs-toggle="modal">村子中间的石头中</button>
+            <button class="btn btn-primary" data-bs-target="#mao5" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mao8" aria-hidden="true" aria-labelledby="maoLabel8" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe8">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="cat2.png" alt="..." >
+            答对啦！(｡･ω･｡)ﾉ♡<br>那么就一起出发吧，冒险者大人!
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao9" data-bs-toggle="modal">出发！</button>
+            <button class="btn btn-primary" data-bs-target="#mao6" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mao9" aria-hidden="true" aria-labelledby="maoLabel9" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe9">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            (遇见了猫猫武士和猫猫魔法师)
+            <img src="cat2.png" alt="..." >
+            冒险者大人想要雇佣谁呢？
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao10" data-bs-toggle="modal">猫猫武士</button>
+            <button class="btn btn-primary" data-bs-target="#mao11" data-bs-toggle="modal">猫猫魔法师</button>
+            <button class="btn btn-primary" data-bs-target="#mao8" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mao10" aria-hidden="true" aria-labelledby="maoLabel10" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe10">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            (看向猫猫武士)<br>
+            <img src="cat4.png">
+            喵喵~<br>
+            <img src="cat2.png" alt="..." >
+            冒险者大人需要50个小鱼干才能雇佣猫猫呢
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao12" data-bs-toggle="modal">未完待续</button>
+            <button class="btn btn-primary" data-bs-target="#mao9" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="mao11" aria-hidden="true" aria-labelledby="maoLabel11" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="maoLabe11">喵</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            (看向猫猫魔法师)<br>
+            <img src="cat3.png">
+            喵喵~<br>
+            <img src="cat2.png" alt="..." >
+            冒险者大人需要50个小鱼干才能雇佣猫猫呢
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#mao12" data-bs-toggle="modal">未完待续</button>
+            <button class="btn btn-primary" data-bs-target="#mao9" data-bs-toggle="modal">返回</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-outline-success" data-bs-target="#mao1" data-bs-toggle="modal" style="position: absolute;
+    right:400px; bottom:340px;">对话</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+
+  </body>
+</html>
